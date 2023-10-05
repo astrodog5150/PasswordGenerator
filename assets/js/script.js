@@ -10,7 +10,7 @@ const charNum = "1234567890"
 str = "";
 
 function generatePassword() {
-    var charLength = prompt("How many characters would you like?")
+    var charLength = prompt("How many characters would you like? Choose a number between 8 and 128.")
     // var lowerYN = confirm("Would you like to add lowercase letters?")
     // var upperYN = confirm("Would you like to add uppercase leters?")
     // var specialYN = confirm("Would you like to add special characters?")
